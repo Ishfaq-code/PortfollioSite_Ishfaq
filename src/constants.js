@@ -4,6 +4,8 @@ import { SiGooglegemini } from "react-icons/si";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaGitAlt } from "react-icons/fa";
 import { SiSocketdotio } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { SiGodotengine } from "react-icons/si";
+
 
 
 
@@ -41,6 +43,18 @@ export const experiences = {
 }
 
 export const projects = [
+    {
+        name: "Crimson Brawl",
+        github:"https://github.com/lucasmcclean/project-foxtrot-black-trigger-watchtower-omega",
+        image: "/images/crimsonbrawl.gif",
+        description: "A fighting game that won 'Best Game Hack' at Knight Hacks VIII where one of the characters is controlled by an EEG.",
+        tech:[
+            { name:"Godot", icon: SiGodotengine },
+            {name: "Python", icon: FaPython},
+        ]
+    },
+
+
     {
         name: "Wrong Answers (In progress)",
         github:"https://github.com/Ishfaq-code/Wrong-Answers",

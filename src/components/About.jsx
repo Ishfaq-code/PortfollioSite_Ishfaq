@@ -15,7 +15,7 @@ const About = () => {
         <div className="mb-6 flex space-x-6 px-6  rounded-xl " >
         {/* Resume */}
         <a
-          href="/FixedJuniorResumeIshfaqMohsin - Copy.pdf"
+          href="/IshfaqMohsinResume - Copy.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-red-400 transition-colors focus:outline-none focus:ring-2 focus:ring-red-400 rounded"
