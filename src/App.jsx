@@ -1,4 +1,5 @@
-import { navlinks } from "./constants"
+import Project from "./components/Project"
+import { projects } from "./constants"
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
             <p className="md:text-3xl text-xl md:px-5 px-3"> | </p>
             <a tabIndex="0" className="md:text-3xl text-xl text-green-500 transition-all duration-{0.2s} hover:underline" href="https://www.linkedin.com/in/ishfaq-mohsin/" target="_blank" rel="noopener noreferrer">Linkedin</a>            
           </div> 
+          <div>{projects.map((project) => (
+            <Project title={project.title} description={project.description} link={project.link} techStack={project.tech} />
+          ))}</div>
       </div>
     </>
   )
