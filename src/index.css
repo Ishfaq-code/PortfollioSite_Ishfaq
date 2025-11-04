@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
+
+
+@theme {
+  --font-primary: "IBM Plex Sans", "sans-serif";
+}
 
 /* Animations, CREDIT TO:  */
 @-webkit-keyframes bg-scrolling-reverse {
@@ -43,7 +49,6 @@
 }
 /* Main styles */
 body {
-  margin-top: 13.5rem;
   color: #999;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
