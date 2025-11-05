@@ -9,7 +9,7 @@ const Project = ({
 
 }) => {
   return (
-   <div className="project-container w-full max-w-[450px] sm:w-[90%] md:w-[450px] border p-4 sm:p-5 rounded-lg bg-[#1b1b1b94] mx-auto">
+   <div className="project-container w-full max-w-[450px] md:w-[90%] border p-4 sm:p-5 rounded-lg bg-[#1b1b1b94] mx-auto">
     <div className='flex justify-between items-baseline'>
       <h1 className="project-title flex justify-start text-xl sm:text-2xl font-bold text-green-500 mb-3">{title}</h1>
       <div className='flex space-x-3'>

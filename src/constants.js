@@ -18,6 +18,66 @@ export const projects =
         ]
     },
 
+    {
+        title: "Altimate",
+        description: "Altimate is a Chrome extension that uses Google’s Gemini to detect and fix web accessibility issues on any website. It was developed during ShellHacks 2025 in just 36 hours. When installed, Altimate can automatically identify web accessibility issues—such as missing alt text for images or poor color contrast—and apply changes to the HTML to fix them. It also offers a developer mode that allows users to manually review and fix accessibility issues throughout their site.",
+        tech: ["React", "Typescript", "Python", "Fast API", "Google Gemini"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/lucasmcclean/altimate"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/altimate"
+            },
+        ]
+    },
+
+
+    {
+        title: "Recallify",
+        description: "Recallify is a full-stack web application designed to help students study their notes using active recall. It takes students’ notes in PDF format and stores them in a RAG database to “learn the material.” The application then acts as a student, while the user takes on the role of a teacher to “teach” the application the content from the notes, emulating an active recall environment. Recallify was developed during Gemini Knights 2025 in just 12 hours.",
+        tech: ["React",  "Python", "Fast API", "Google Gemini"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/Recallify"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/recallify"
+            },
+        ]
+    },
+
+
+    {
+        title: "In The Moment",
+        description: "In The Moment is a full-stack application designed to help distant family and friends share memories with one another. It features an easy-to-use interface that accommodates all levels of technological experience while maintaining strong security. This project was developed for the STEM Connect 2025 Hackathon.",
+        tech: ["React",  "Python", "Fast API", "Firebase"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/InTheMoment"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/in-the-moment"
+            },
+        ]
+    },
+
+
+
+   
+
 
 
 ]
