@@ -15,7 +15,8 @@ export const projects =
                 label: "Devpost",
                 href: "https://devpost.com/software/project-foxtrot-black-trigger-watchtower-omega"
             },
-        ]
+        ],
+        note: ""
     },
 
     {
@@ -33,7 +34,8 @@ export const projects =
                 label: "Devpost",
                 href: "https://devpost.com/software/altimate"
             },
-        ]
+        ],
+        note: ""
     },
 
 
@@ -52,7 +54,8 @@ export const projects =
                 label: "Devpost",
                 href: "https://devpost.com/software/recallify"
             },
-        ]
+        ],
+        note: ""
     },
 
 
@@ -71,8 +74,28 @@ export const projects =
                 label: "Devpost",
                 href: "https://devpost.com/software/in-the-moment"
             },
-        ]
+        ],
+        note: ""
     },
+
+
+
+    
+    {
+        title: "Wrong Answers",
+        description: "Wrong Answers is one of my work-in-progress projects, where I’m developing a real-time party web game with a room system that allows players to play with friends. It uses WebSockets for real-time communication and Redis to store small, fast-changing in-game data, all implemented using an object-oriented approach.",
+        tech: ["React", "Typescript", "Express", "Websocket", "Redis"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/Wrong-Answers"
+            },
+
+        ],
+        note: "(In Progress)"
+    },
+
 
 
 

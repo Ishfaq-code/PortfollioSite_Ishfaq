@@ -17,7 +17,7 @@ function App() {
 
           <div className="p-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center items-stretch">
             {projects.map((project) => (
-              <Project title={project.title} description={project.description} links={project.links} techStack={project.tech} />
+              <Project title={project.title} description={project.description} links={project.links} techStack={project.tech} note={project.note} />
           ))}
       </div> 
        
