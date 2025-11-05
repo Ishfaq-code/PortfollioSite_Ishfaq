@@ -1,133 +1,108 @@
-import { SiTypescript, SiTailwindcss, SiMongodb, SiJavascript, } from "react-icons/si";
-import { SiFastapi } from "react-icons/si";
-import { SiGooglegemini } from "react-icons/si";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaGitAlt } from "react-icons/fa";
-import { SiSocketdotio } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
-import { SiGodotengine } from "react-icons/si";
-
-
-
-
-export const navlinks = {
-    tag_ab: {
-        text: "About",
-        id: "#about"
-    },
-
-    tag_ex: {
-        text: "Experience",
-        id: "#expereince"
-    },
-    tag_pr:{
-        text: "Project",
-        id: "#project"
-    }
-
-}
-
-
-export const experiences = {
-    techranger: {
-        title: "Software Engineering Intern",
-        company: "Center of Distributed Learning at UCF",
-        date: "March 2025 - Present",
-        res: 
+export const projects = 
+[
+    {
+        title: "Crimson Brawl",
+        description: "Crimson Brawl is a game developed in Godot during Knight Hacks VIII that won the 'Best Game Hack' award. It is a fighting game where one player is controlled using EEG input, while the other uses standard keyboard controls. We trained a machine learning model on various brainwave patterns to interpret EEG signals and translate them into player inputs.",
+        tech: ["Godot", "GDScript", "Python", "Jupyter Notebook"],
+        links: 
         [
-            "Developing a full-stack accessibility tool for faculty to ensure accessible online courses.",
-            "Implementing various accessibility solutions to keep online courses up to WCAG standards"
+            {
+                label: "Github",
+                href: "https://github.com/lucasmcclean/project-foxtrot-black-trigger-watchtower-omega"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/project-foxtrot-black-trigger-watchtower-omega"
+            },
         ],
-        tech: "Javascript, React, NodeJS, PHP, Symfony, SQL",
-        colorCode: "#deb53c"
-    }
-}
+        note: ""
+    },
 
-export const projects = [
     {
-        name: "Crimson Brawl",
-        github:"https://github.com/lucasmcclean/project-foxtrot-black-trigger-watchtower-omega",
-        image: "/images/crimsonbrawl.gif",
-        description: "A fighting game that won 'Best Game Hack' at Knight Hacks VIII where one of the characters is controlled by an EEG.",
-        tech:[
-            { name:"Godot", icon: SiGodotengine },
-            {name: "Python", icon: FaPython},
-        ]
+        title: "Altimate",
+        description: "Altimate is a Chrome extension that uses Google’s Gemini to detect and fix web accessibility issues on any website. It was developed during ShellHacks 2025 in just 36 hours. When installed, Altimate can automatically identify web accessibility issues—such as missing alt text for images or poor color contrast—and apply changes to the HTML to fix them. It also offers a developer mode that allows users to manually review and fix accessibility issues throughout their site.",
+        tech: ["React", "Typescript", "Python", "Fast API", "Google Gemini"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/lucasmcclean/altimate"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/altimate"
+            },
+        ],
+        note: ""
     },
 
 
     {
-        name: "Wrong Answers (In progress)",
-        github:"https://github.com/Ishfaq-code/Wrong-Answers",
-        image: "/images/WrongAnswers.png",
-        description: "A real time party web game that's in progress",
-        tech:[
-            { name:"React", icon: FaReact },
-            {name: "Typescript", icon: SiTypescript},
-            {name: "Firebase", icon: SiSocketdotio},
+        title: "Recallify",
+        description: "Recallify is a full-stack web application designed to help students study their notes using active recall. It takes students’ notes in PDF format and stores them in a RAG database to “learn the material.” The application then acts as a student, while the user takes on the role of a teacher to “teach” the application the content from the notes, emulating an active recall environment. Recallify was developed during Gemini Knights 2025 in just 12 hours.",
+        tech: ["React",  "Python", "Fast API", "Google Gemini"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/Recallify"
+            },
 
-        ]
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/recallify"
+            },
+        ],
+        note: ""
     },
 
 
     {
-        name: "Altimate",
-        github: "https://github.com/lucasmcclean/altimate",
-        image: "/images/AltimateSS.jpg",
-        description: "A chrome-extension that uses Gemini to automatically make a site accessible.",
-        tech: 
-        [ 
-            { name:"React", icon: FaReact },
-            {name: "Typescript", icon: SiTypescript},
-            {name: "FastAPI", icon: SiFastapi},
-            {name: "Gemini", icon: SiGooglegemini}
-        
-        ]
+        title: "In The Moment",
+        description: "In The Moment is a full-stack application designed to help distant family and friends share memories with one another. It features an easy-to-use interface that accommodates all levels of technological experience while maintaining strong security. This project was developed for the STEM Connect 2025 Hackathon.",
+        tech: ["React",  "Python", "Fast API", "Firebase"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/InTheMoment"
+            },
+
+             {
+                label: "Devpost",
+                href: "https://devpost.com/software/in-the-moment"
+            },
+        ],
+        note: ""
     },
 
 
-    {
-        name: "In The Moment",
-        github: "https://github.com/Ishfaq-code/InTheMoment",
-        image: "/images/InTheMoment.jpg",
-        description: "An app for sharing memories between your loved ones easily and privately",
-        tech: 
-        [ 
-            { name:"React", icon: FaReact },
-            {name: "FastAPI", icon: SiFastapi},
-            {name: "Firebase", icon: IoLogoFirebase}
-        
-        ]
-    },
-
-
-        {
-        name: "Recallify",
-        github: "https://github.com/Ishfaq-code/Recallify",
-        image: "/images/Recallify.jpg",
-        description: "Fullstack web app with a RAG Pipeline to help with reinforcement learning",
-        tech: 
-        [ 
-            { name:"React", icon: FaReact },
-            {name: "FastAPI", icon: SiFastapi},
-            {name: "Gemini", icon: SiGooglegemini}
-        
-        ]
-    }
 
     
+    {
+        title: "Wrong Answers",
+        description: "Wrong Answers is one of my work-in-progress projects, where I’m developing a real-time party web game with a room system that allows players to play with friends. It uses WebSockets for real-time communication and Redis to store small, fast-changing in-game data, all implemented using an object-oriented approach.",
+        tech: ["React", "Typescript", "Express", "Websocket", "Redis"],
+        links: 
+        [
+            {
+                label: "Github",
+                href: "https://github.com/Ishfaq-code/Wrong-Answers"
+            },
+
+        ],
+        note: "(In Progress)"
+    },
+
+
+
+
+   
+
+
+
 ]
 
-export const techStack = [
-  { name: "React", icon: FaReact  },
-  { name: "Node.js", icon: FaNodeJs  },
-  { name: "JavaScript", icon: SiJavascript  },
-  { name: "TypeScript", icon: SiTypescript  },
-  { name: "HTML5", icon: FaHtml5  },
-  { name: "CSS3", icon: FaCss3Alt  },
-  { name: "Tailwind", icon: SiTailwindcss  },
-  { name: "MongoDB", icon: SiMongodb  },
-  { name: "Python", icon: FaPython  },
-  { name: "FastAPI", icon: SiFastapi  },
-  { name: "Git", icon: FaGitAlt  },
-];
 
