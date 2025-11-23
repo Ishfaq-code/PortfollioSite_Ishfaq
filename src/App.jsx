@@ -8,7 +8,7 @@ function App() {
      <div className='min-h-screen w-full flex flex-col items-center justify-start py-8 md:py-12 font-primary text-white overflow-y-auto'>
           <h1 className="md:text-7xl text-5xl font-bold" tabIndex="0">Ishfaq Mohsin</h1>
           <div className="flex p-10">
-            <a tabIndex="0" className="md:text-3xl text-xl text-green-500 transition-all duration-{0.2s} hover:underline" href="/IshfaqMohsinResume - Copy.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a tabIndex="0" className="md:text-3xl text-xl text-green-500 transition-all duration-{0.2s} hover:underline" href="/Ishfaq_Mohsin_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <p className="md:text-3xl text-xl md:px-5 px-3"> | </p>
             <a tabIndex="0" className="md:text-3xl text-xl text-green-500 transition-all duration-{0.2s} hover:underline" href="https://github.com/Ishfaq-code" target="_blank" rel="noopener noreferrer">Github</a>
             <p className="md:text-3xl text-xl md:px-5 px-3"> | </p>
